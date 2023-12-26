@@ -1,4 +1,4 @@
-import { EnumStorageKey } from "@/enum";
+import { EnumStorageKey } from "@/enums";
 import { setStorage, getStorageFromKey, removeStorageFromKey } from "./common/storage";
 import type { AuthInfo } from "@/interface";
 

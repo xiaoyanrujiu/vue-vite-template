@@ -1,0 +1,13 @@
+.notfound-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+    img {
+        display: block;
+        width: 430px;
+        user-select: none;
+    }
+}

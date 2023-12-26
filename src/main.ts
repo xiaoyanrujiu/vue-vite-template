@@ -1,9 +1,9 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import { setupStore } from "@/store";
-import { setupRouter } from "@/router";
+import { setupRouter } from "@/routers";
 import { setDesign } from "@/design";
-import { setupDirective } from "@/directive";
+import { setupDirective } from "@/directives";
 
 async function setupApp() {
   const app = createApp(App);

@@ -1,0 +1,17 @@
+<template>
+  <div class="notfound-card">
+    <img :src="Error403" alt="403" />
+    <a-button type="primary" @click="goHome"> 回到首页 </a-button>
+  </div>
+</template>
+<script setup lang="ts">
+import "./index.scss";
+import Error403 from "@/assets/svg/403.svg";
+import { useRouter } from "vue-router";
+
+const router = useRouter();
+
+const goHome = () => {
+  router.push("/");
+};
+</script>

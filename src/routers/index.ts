@@ -13,7 +13,11 @@ const routes = [
     path: "/",
     redirect: "/home"
   },
-  ...routerArray
+  ...routerArray,
+  {
+    path: "*",
+    redirect: "/404"
+  }
 ];
 
 export const router = createRouter({

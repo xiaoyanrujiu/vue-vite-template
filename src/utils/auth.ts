@@ -1,6 +1,6 @@
 import { EnumStorageKey } from "@/enums";
 import { setStorage, getStorageFromKey, removeStorageFromKey } from "./common/storage";
-import type { AuthInfo } from "@/interface";
+import type { AuthInfo } from "@/interfaces";
 
 /** 设置token */
 export function setToken(token: string) {

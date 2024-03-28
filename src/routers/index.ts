@@ -15,7 +15,7 @@ const routes = [
   },
   ...routerArray,
   {
-    path: "*",
+    path: "/:path(.*)",
     redirect: "/404"
   }
 ];
